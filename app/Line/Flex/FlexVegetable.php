@@ -101,14 +101,14 @@ class FlexVegetable
                     ->setContents([
                         TextComponentBuilder::builder()
                             ->setText('▲ '.$vegetable['上價'])
-                            ->setColor('#4bc0c0')
+                            ->setColor('#ff6384')
                             ->setSize(ComponentFontSize::LG),
                         TextComponentBuilder::builder()
                             ->setText('－ '.$vegetable['平均價'])
                             ->setSize(ComponentFontSize::LG),
                         TextComponentBuilder::builder()
                             ->setText('▼ '.$vegetable['下價'])
-                            ->setColor('#ff6384')
+                            ->setColor('#4bc0c0')
                             ->setSize(ComponentFontSize::LG),
                     ]),
                 
